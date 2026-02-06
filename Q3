@@ -1,8 +1,0 @@
-rows = 6
-
-# Top horizontal line
-print("*****")
-
-# Vertical line
-for i in range(rows - 1):
-    print("  *")
