@@ -1,0 +1,15 @@
+rows = 5
+
+# Top horizontal line
+for i in range(rows):
+    print("*", end="")
+print()
+
+# Vertical line
+for i in range(rows - 1):
+    for j in range(rows):
+        if j == rows // 2:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
