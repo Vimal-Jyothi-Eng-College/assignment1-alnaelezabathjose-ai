@@ -26,3 +26,13 @@ jobs:
         TEST1_RESULTS: "${{steps.test1.outputs.result}}"
       with:
         runners: test1
+name: GitHub Classroom Autograding Workflow
+
+on: [push]
+
+jobs:
+  autograding:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
