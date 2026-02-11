@@ -1,7 +1,4 @@
-
-n = int(input("Enter N: "))
-
-print("Prime numbers from 1 to", n, "are:")
+n = int(input())
 
 for num in range(2, n + 1):
     is_prime = True
@@ -11,3 +8,4 @@ for num in range(2, n + 1):
             break
     if is_prime:
         print(num, end=" ")
+
