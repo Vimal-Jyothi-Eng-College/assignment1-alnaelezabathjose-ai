@@ -1,4 +1,7 @@
-n = int(input())
+try:
+    n = int(input())
+except:
+    n = 0
 
 for num in range(2, n + 1):
     is_prime = True
